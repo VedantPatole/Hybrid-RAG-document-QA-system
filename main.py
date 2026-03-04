@@ -62,7 +62,7 @@ compression_retriever = ContextualCompressionRetriever(
     base_compressor=compressor,
     base_retriever=ensemble_retriever
 )
-print("✅ Reranker Ready!")
+print("✅ Reranker!")
 # --- 3. QA CHAIN SETUP ---
 # Use the final, most powerful retriever in your chain
 final_retriever = compression_retriever
